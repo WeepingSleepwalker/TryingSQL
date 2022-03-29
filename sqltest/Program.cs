@@ -13,7 +13,7 @@ namespace sqltest
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
                 builder.DataSource = "karmadogs.database.windows.net";
                 builder.UserID = "clearmindkombucha";
-                builder.Password = "yKSa4mvuuZNJJ6G";
+                builder.Password = "<find a password>";
                 builder.InitialCatalog = "ButcherShopDB";
 
                 using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
